@@ -8,6 +8,5 @@ Pod::Spec.new do |spec|
   spec.platform     = :ios, "9.0"
   spec.source       = { :git => "https://github.com/muyanglang/XiaoTestFrame.git", :tag => "#{spec.version}" }
   spec.source_files  = "XiaoTestFrame/**/*.{h,m}"
-  s.vendored_frameworks = 'XiaoTestFrame/XiaoTestFrame.framework'
   spec.requires_arc = true
 end
