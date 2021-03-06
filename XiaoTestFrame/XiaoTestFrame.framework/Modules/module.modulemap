@@ -1,0 +1,6 @@
+framework module XiaoTestFrame {
+  umbrella header "XiaoTestFrame.h"
+
+  export *
+  module * { export * }
+}
